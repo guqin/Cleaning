@@ -75,6 +75,7 @@ thirty subjects (1-30).  Here's a description of all the columns:
 [61] "finalMeanOf-fBodyAccMag-mean()"      mean of the mean of the magnitude of the FFT body linear  acceleration     
 [62] "finalMeanOf-fBodyAccMag-std()"       mean of the standard deviation of the magnitude of the FFT body linear acceleration    
 [63] "finalMeanOf-fBodyBodyAccJerkMag-mean()" mean of the mean of the magnitude of the FFT body linear acceleration derivative - Jerk 
+
 [64] "finalMeanOf-fBodyBodyAccJerkMag-std()"  mean of the standard deviation of the magnitude of the FFT body linear acceleration derivative - Jerk
 
 [65] "finalMeanOf-fBodyBodyGyroMag-mean()"   mean of the mean of the magnitude of the FFT angular velocity  
