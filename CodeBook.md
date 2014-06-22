@@ -55,6 +55,7 @@ thirty subjects (1-30).  Here's a description of all the columns:
 [42] "finalMeanOf-tBodyGyroJerkMag-std()"  mean of the standard deviation of the magnitude of the time domain angular velocity derivative - Jerk    
 [43] "finalMeanOf-fBodyAcc-mean()-X"       mean of the mean of the frequency domain body linear acceleration X direction            
 [44] "finalMeanOf-fBodyAcc-mean()-Y"       mean of the mean of the frequency domain body linear acceleration Y direction 
+
 [45] "finalMeanOf-fBodyAcc-mean()-Z"       mean of the mean of the frequency domain body linear acceleration Z direction  
 [46] "finalMeanOf-fBodyAcc-std()-X"        mean of the standard deviation of the frequency domain body linear acceleration X direction    
 [47] "finalMeanOf-fBodyAcc-std()-Y"        mean of the standard deviation of the frequency domain body linear acceleration Y direction     
@@ -75,9 +76,12 @@ thirty subjects (1-30).  Here's a description of all the columns:
 [62] "finalMeanOf-fBodyAccMag-std()"       mean of the standard deviation of the magnitude of the FFT body linear acceleration    
 [63] "finalMeanOf-fBodyBodyAccJerkMag-mean()" mean of the mean of the magnitude of the FFT body linear acceleration derivative - Jerk 
 [64] "finalMeanOf-fBodyBodyAccJerkMag-std()"  mean of the standard deviation of the magnitude of the FFT body linear acceleration derivative - Jerk
+
 [65] "finalMeanOf-fBodyBodyGyroMag-mean()"   mean of the mean of the magnitude of the FFT angular velocity  
+
 [66] "finalMeanOf-fBodyBodyGyroMag-std()"     mean of the standard deviation of the magnitude of the FFT angular velocity  
 [67] "finalMeanOf-fBodyBodyGyroJerkMag-mean()" mean of the mean of the magnitude of the FFT angular velocity derivative - Jerk
+
 [68] "finalMeanOf-fBodyBodyGyroJerkMag-std()" mean of the standard deviation of the magnitude of the FFT angular velocity derivative - Jerk
 
 
