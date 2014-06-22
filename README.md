@@ -1,4 +1,4 @@
-There are three files in this repo
+There are three files in this repo created for the "Getting and Cleanimg Data" Coursera class
 
 README.md is this file and it explains the contents of the the repo and how the R script works
 CodeBook.md describes the variables, the data and the transformations used to produce the data
@@ -6,7 +6,6 @@ run_analysis.R is the script used to produce the data - tidy.txt
 
 
 These are steps used in run_analsys.R.
-setwd("C:/tmp")
 
 1. Change directory to C:/tmp where all the files are stored
 2. Read in the three feature, activity and subject files for train
