@@ -108,7 +108,7 @@ force is assumed to have only low frequency components, therefore a filter with 
 a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details.
 
 Feature Selection
-=================
+
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) 
 were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to 
