@@ -26,7 +26,7 @@ featurelabels <- read.table("features.txt")
 activitylabels <- read.table("activity_labels.txt")
 
 # find the Mean and Standard Deviation features Column indexes and names
-meanstdindex <- grep("mean|Mean|Standard|std", featurelabels[,2])
+meanstdindex <- grep("mean\\(|std\\(", featurelabels[,2])
 meanstdnames <- featurelabels[meanstdindex, 2]
 
 #add the Subject and Activity to the needed column index and names
