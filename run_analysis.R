@@ -51,9 +51,9 @@ tidy <- tidy[, -c(1)]
 
 # rename the columns to be the mean of the variables 
 tidynames <- names(tidy)
-tidynames <- gsub("^", "Mean of ", tidynames)
-tidynames <- sub("Mean of Subject", "Subject", tidynames)
-tidynames <- sub("Mean of Activity", "Activity", tidynames)
+tidynames <- gsub("^", "finalMeanOf-", tidynames)
+tidynames <- sub("finalMeanOf-Subject", "Subject", tidynames)
+tidynames <- sub("finalMeanOf-Activity", "Activity", tidynames)
 names(tidy) <- tidynames
 
 # write out final result 
