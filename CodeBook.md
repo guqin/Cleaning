@@ -1,5 +1,5 @@
 The tidy.txt file contains the mean of all the mean and standard deviation variables from the Human Activity Recognition Using Smartphones Dataset
-(Version 1.0) by subject and activity
+(Version 1.0) by subject and activity. Note that meanFrequency and angle() variables were deliberately not included 
 
 The original data is a series of measurements of smartphone users doing various activities while recording accelerometer and 
 gyroscope readings.  So there were multiple readings for each subject and activity. 
