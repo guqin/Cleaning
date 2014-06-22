@@ -16,6 +16,8 @@ These are steps used in run_analsys.R.
 7. Read the feature labels file
 8. Read the activity labels file
 9. Find the Mean and Standard Deviation features index and names from the feature labels data
+   Note we assume meanFrequency and the angle variables that are window means are not requested. 
+   If these are desired we would just change the grep regular expression to include them. 
 10. Create column indexs and column names for all needed columns including subject and activity.
 11. Extract the needed columns into a new data.frame
 12. Rename the columns to be the "finalMeanOf" each variable
